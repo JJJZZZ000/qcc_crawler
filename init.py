@@ -113,13 +113,14 @@ login(bro)
 
 
 # check if the verification happens
-try:
-    input = bro.find_element_by_xpath('//*[@id="searchKey"]')
-except:
-    os.system("pause")
+
 
 parseResults = []
 for company in companies:
+    try:
+        input = bro.find_element_by_xpath('//*[@id="searchKey"]')
+    except:
+        os.system("pause")
     try:
         parseResult = search(bro, company, xpaths)
         parseResults.append(parseResult)
