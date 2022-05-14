@@ -1,0 +1,3 @@
+company_name: text:  /html/body/div/div[2]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/span[1]/h1
+lawperson: text: //*[@id="cominfo"]/div[2]/table/tr[2]/td[2]/div/div/span[2]/span/span/a
+附近企业: href: /html/body/div/div[2]/div[2]/div/div[1]/div[2]/div[2]/div[3]/div[3]/span[2]/div/span[1]/a[2]
