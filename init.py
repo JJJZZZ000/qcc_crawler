@@ -140,6 +140,7 @@ for parseResult in parseResults:
 now = datetime.now()
 filename = now.strftime("%Y%m%d%H%M%S")+".xlsx"
 
-dataf.to_excel(dir+filename)
+dir_res = './Result/'
+dataf.to_excel(dir_res+filename)
 bro.quit() 
 print("Write complete!")
